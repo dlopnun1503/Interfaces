@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color:blue;
+}
+
+.importante{
+    background-color: yellow;
+}
+
+#titulo{
+    color: green;
+    font-size: large;
+}
+
+[type="text"] {
+    border: 2px solid red; 
+}
