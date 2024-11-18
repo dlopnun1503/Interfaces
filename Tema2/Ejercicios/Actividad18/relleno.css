@@ -1,0 +1,18 @@
+.div1{
+    padding: 20px;
+    background-color: aqua;
+}
+
+.div2{
+    padding: 10px 15px 20px 25px;
+    background-color: yellowgreen;
+}
+
+.div3{
+    padding: 30px 50px 30px 50px;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
