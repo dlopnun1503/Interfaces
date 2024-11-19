@@ -1,0 +1,21 @@
+*{
+    margin: 50px;
+    height: 50px;
+}
+
+.div1{
+    outline-style: dotted;
+    outline-color: greenyellow;
+}
+
+.div2{
+    outline-style: dashed;
+    outline-width: 5px;
+    outline-color: aquamarine;
+}
+
+.div3{
+    outline-offset: 10px;
+    outline-style: solid;
+    outline-color: navy;
+}

@@ -1,0 +1,13 @@
+.div1{
+    background-color: gainsboro;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+/*
+Ancho = 300 + 15 + 15 + 50 + 50 = 430
+Altura = 184 Lo podemos ver dando a F12  cuando lo ejecutamos
+*/
