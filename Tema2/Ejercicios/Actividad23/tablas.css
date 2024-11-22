@@ -1,0 +1,27 @@
+table{
+    caption-side: top;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    table-layout: fixed;
+    empty-cells: show;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+#fila1{
+    background-color: greenyellow;
+}
+
+#fila2{
+    background-color: rgb(99, 175, 99)
+}
+
+#fila3{
+    background-color: rgb(83, 206, 110);
+}
+
+#fila4{
+    background-color: skyblue;
+}
