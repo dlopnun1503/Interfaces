@@ -1,0 +1,18 @@
+.div1{
+    display: block;
+    background-color: beige;
+}
+
+.div2{
+    display: inline;
+    background-color: beige;
+}
+
+#boton{
+    display: inline-block;
+    background-color: beige;
+}
+
+#p1{
+    display: none;
+}

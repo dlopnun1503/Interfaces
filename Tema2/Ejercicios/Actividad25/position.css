@@ -1,0 +1,23 @@
+#div1{
+    position: static;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+#div2{
+    position: relative;
+    background-color: goldenrod;
+    border: 1px solid blue;
+}
+
+#div3{
+    position: absolute;
+    background-color: greenyellow;
+    border: 1px solid red;
+}
+
+#div4{
+    position: fixed;
+    background-color: thistle;
+    border: 1px solid grey;
+}

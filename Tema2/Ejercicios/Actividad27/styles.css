@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.column {
+    float: left; 
+    width: 24%; 
+    margin: 0 1%;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid ghostwhite;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both; 
+    margin-top: 20px;
+}
+
+/*
+¿Qué sucede si no se usa clear?
+El pie de página u otros elementos podrían quedar superpuestos
+*/
+
+/*
+¿Qué otros elementos además de clear pueden solucionar problemas similares?
+- Overflow: hidden
+- Uso de clearfix
+- Flexbox o Grid Layout
+*/
