@@ -1,0 +1,23 @@
+p::first-line {
+    color: blue;
+    font-size: larger;
+}
+
+p::first-letter {
+    color: red;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+body::before {
+    content: "¡Prepárate para aprender CSS!";
+}
+
+body::after {
+    content: "Sigue practicando y mejora cada día";
+}
+
+::selection {
+    background-color: greenyellow;
+    color: black;
+}

@@ -1,0 +1,21 @@
+ul li:first-child {
+    background-color: ghostwhite;
+}
+
+ul li:last-child {
+    font-weight: bold;
+}
+
+ul li:nth-child(3) {
+    background-color: greenyellow;
+    font-style: italic;
+}
+
+ul.tareas li:nth-child(2),
+ul.tareas li:nth-child(4) {
+    color: rebeccapurple;
+}
+
+ul.contactos li:nth-child(2) {
+    border: 2px solid red;
+}
