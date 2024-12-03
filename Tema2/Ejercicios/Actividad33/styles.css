@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -17,24 +16,26 @@ body {
 .menu-item {
     width: 50px; 
     height: 50px;
-    background-image: url('C:/Users/2DAW2425-10/Desktop/Diseño de interfaces/Imagenes/diseno'); 
     background-repeat: no-repeat;
-    background-size: 150px 50px; 
+    background-size: contain;  /* Ajusta la imagen */
     border: none;
     cursor: pointer;
 }
 
-/* Icono de Inicio */
+
 .menu-item.home {
-    background-position: 0 0;
+    background-image: url('file:///C:/Users/2DAW2425-10/Desktop/Diseño/Imagenes/home.png');
+    background-position: center;  /* Centra la imagen en el contenedor */
 }
 
-/* Icono de Buscar */
+
 .menu-item.search {
-    background-position: -50px 0;
+    background-image: url('file:///C:/Users/2DAW2425-10/Desktop/Diseño/Imagenes/search.png');
+    background-position: center;  
 }
 
-/* Icono de Configuración */
+
 .menu-item.settings {
-    background-position: -100px 0;
+    background-image: url('file:///C:/Users/2DAW2425-10/Desktop/Diseño/Imagenes/settings.png');
+    background-position: center;  
 }

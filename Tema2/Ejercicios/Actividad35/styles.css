@@ -32,3 +32,24 @@ footer p {
     text-align: center; 
     margin-top: 20px;
 }
+
+/*
+1. ¿Qué sucede si cambias el orden de las reglas CSS?
+El orden de las reglas afecta únicamente cuando dos o más tienen la misma especificidad. 
+En ese caso, la última regla en el archivo CSS tiene prioridad debido al principio de cascada.
+
+
+2. ¿Cómo afecta la especificidad a los estilos aplicados en el párrafo #override?
+La especificidad determina qué regla tiene prioridad:
+#override tiene mayor especificidad que las reglas aplicadas a p o .highlight, ya que los selectores de id tienen mayor peso que las clases o selectores de elementos
+
+
+3. ¿Qué sucede si eliminas el !important de alguna regla?
+Si eliminas !important, el estilo ya no tendrá la prioridad absoluta que !important garantiza, 
+y el navegador aplicará la regla con mayor especificidad o la última en el orden del archivo CSS si tienen igual especificidad.
+
+
+4. ¿Qué reglas son heredadas automáticamente y cuáles necesitas especificar explícitamente?
+Propiedades de texto como color, font-family, font-size, y line-height son heredadas automáticamente de los elementos padres a los hijos.
+ropiedades que no afectan directamente al contenido del texto no se heredan automáticamente y deben especificarse explícitamente para cada elemento.
+*/
