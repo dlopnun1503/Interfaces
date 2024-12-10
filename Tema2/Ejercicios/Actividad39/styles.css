@@ -1,0 +1,52 @@
+header {
+    background: greenyellow;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .galeria {
+    margin-top: 20px;
+  }
+  
+  .galeria .tarjetas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tarjeta {
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
